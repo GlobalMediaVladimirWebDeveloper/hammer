@@ -30,32 +30,30 @@
 
 }
 
-.crumbs ul li::after{
+.crumbs ul li::after, .webp .crumbs ul li::after{
 
 	display: block;
 	content: "";
-	width: 14px;
-	height: 10px;
-	margin-left: 18px;
-	margin-right: 18px;
+	width: 7px;
+	height: 12px;
+	margin-left: 15px;
+	margin-right: 10px;
 	margin-top: 3px;
-	background: url('../img/icons/carr.png')no-repeat;
+	background: url('../img/icons/crumbs-arrow.png')no-repeat;
 
 }
 
 .webp .crumbs ul li::after{
 
-	display: block;
-	content: "";
-	width: 14px;
-	height: 10px;
-	margin-left: 18px;
-	margin-right: 18px;
-	margin-top: 3px;
-	background: url('../img/icons/webp/carr.webp')no-repeat;
+	background: url('../img/icons/webp/crumbs-arrow.webp')no-repeat;
 
 }
 
+.crumbs ul li:last-child::after, .webp .crumbs ul li:last-child::after{
+
+	display: none;
+
+}
 
 
 .crumbs ul li.active::after{
@@ -66,14 +64,24 @@
 
 .crumbs ul li a{
 
-	color: var(--full-grey);
+	color: var(--text-color);
 	font-family: var(--def-font);
-	font-size: 20px;
-	font-weight: 500;
-	line-height: 24px;
-	letter-spacing: 1px;
+	font-size: 14px;
+	font-weight: 300;
+
 
 }
+
+
+.crumbs ul li:first-child a{
+
+	color: var(--dark-smoothy-grey);
+	
+
+}
+
+
+
 
 
 .crumbs ul li.active a{

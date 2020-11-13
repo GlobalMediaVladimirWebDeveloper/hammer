@@ -1,0 +1,265 @@
+
+
+.about__wrapper{
+
+    width: 100%;
+
+}
+
+
+
+.pagetitle{
+
+    display: block;
+    color: var(--text-color);
+    font-family: var(--def-font);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+
+
+.about__wrapper .pagetitle{
+
+    margin-top: 20px;
+
+}
+
+
+
+
+.about__info{
+
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 85px;
+
+}
+
+
+
+.about__info > li{
+
+    margin-right: 30px;
+    margin-bottom: 65px;
+
+}
+
+
+
+.about__info > li:nth-child(2n+2){
+
+    margin-right: 0;
+
+}
+
+
+.text-block{
+
+    width: 756px;
+
+}
+
+
+
+.picture-block{
+
+    width: calc(100% - 800px);
+
+}
+
+
+
+.about__info > li:nth-child(2).picture-block{
+
+    margin-top: -100px;
+
+}
+
+.picture-block img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+
+
+
+.about-text{
+
+    color: var(--text-color);
+    font-family: var(--def-font);
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 35px;
+
+}
+
+
+
+.stats {
+
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+
+
+.stats li{
+
+    width: calc(100% / 3 - 15px);
+    height: 126px;
+    margin-right: 15px;
+    background-color: var(--dark-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--def-white);
+    font-family: var(--def-font);
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: center;
+
+
+}
+
+
+
+.stats li strong{
+
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+
+
+.about-brands__title{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-color);
+    font-family: var(--def-font);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+
+.about-brands{
+
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.about-brands__items{
+
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+
+.about-brands__items li{
+
+    width: calc(100% / 6 - 20px);
+    height: 172px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+
+}
+
+
+
+.about-brands__items li:nth-child(6n+6){
+
+    margin-right: 0;
+
+}
+
+
+
+.about-brands__items li picture{
+
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+
+
+.about-brands__items li picture img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
