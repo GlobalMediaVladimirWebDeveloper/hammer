@@ -1,0 +1,89 @@
+.crumbs{
+
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 30px 0;
+	z-index: 99;
+
+}
+
+
+.crumbs ul{
+
+	display: flex;
+	align-items: center;
+	list-style:none;
+	z-index: 99;
+	flex-wrap: wrap;
+	padding: 0;
+
+}
+
+.crumbs ul li{
+
+	width: auto;
+	height: auto;
+	margin-right: 5px;
+	display: flex;
+	align-items: center;
+
+}
+
+.crumbs ul li::after{
+
+	display: block;
+	content: "";
+	width: 14px;
+	height: 10px;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-top: 3px;
+	background: url('../img/icons/carr.png')no-repeat;
+
+}
+
+.webp .crumbs ul li::after{
+
+	display: block;
+	content: "";
+	width: 14px;
+	height: 10px;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-top: 3px;
+	background: url('../img/icons/webp/carr.webp')no-repeat;
+
+}
+
+
+
+.crumbs ul li.active::after{
+
+	display: none;
+
+}
+
+.crumbs ul li a{
+
+	color: var(--full-grey);
+	font-family: var(--def-font);
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: 1px;
+
+}
+
+
+.crumbs ul li.active a{
+
+	color: var(--text-color);
+	
+}
+
+.crumbs ul li:hover a{
+
+	color: var(--text-color);
+	
+}

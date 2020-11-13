@@ -1,0 +1,317 @@
+
+
+.hero__wrapper{
+
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 50px;
+
+}
+
+
+.hero__slider-wrapper{
+
+    width: 100%;
+    position: relative;
+    height: 475px;
+
+}
+
+
+.hero__slider{
+
+    width: calc(var(--container) - 150px);
+    height: 100%;
+
+}
+
+
+.hero__slider .swiper-slide, .webp .hero__slider .swiper-slide{
+
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.13) !important;
+    border-radius: 12px !important;
+    background: url('../img/system32/slidebg.png')no-repeat;
+    background-size: cover;
+    padding: 85px 120px;
+
+}
+
+
+
+.webp .hero__slider .swiper-slide{
+
+    background: url('../img/system32/webp/slidebg.webp')no-repeat;
+
+}
+
+
+
+.hero__slider-wrapper .swiper-button-prev, .hero__slider-wrapper .swiper-button-next {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #b7b7b7;
+    transition: .3s;
+    cursor: pointer;
+
+}
+
+
+.hero__slider-wrapper .swiper-button-prev::after, .hero__slider-wrapper .swiper-button-next::after, .webp .hero__slider-wrapper .swiper-button-prev::after, .webp .hero__slider-wrapper .swiper-button-next::after {
+
+    display: block;
+	content: "";
+	width: 10px;
+	height: 16px;
+	background:url('../img/icons/left-arrow.png') no-repeat center;
+	background-size: contain;
+
+}
+
+.hero__slider-wrapper .swiper-button-next::after {
+    
+	background:url('../img/icons/right-arrow.png') no-repeat center;
+
+}
+
+
+.webp .hero__slider-wrapper .swiper-button-prev::after{
+
+	background:url('../img/icons/webp/left-arrow.webp') no-repeat center;
+
+}
+
+
+.webp .hero__slider-wrapper .swiper-button-next::after {
+
+	background:url('../img/icons/webp/right-arrow.webp') no-repeat center;
+
+}
+
+
+.hero__slider-wrapper .swiper-button-prev{
+
+    left: 15px;
+    right: auto;
+
+}
+
+
+
+.hero__slider-wrapper .swiper-button-next{
+
+    right: 15px;
+    left: auto;
+
+}
+
+
+
+
+.hero__slider-wrapper .swiper-button-prev:hover, .hero__slider-wrapper .swiper-button-next:hover{
+
+    background-color: var(--light-smoothy-blue);
+    
+
+}
+
+
+
+
+.hero__slider-info{
+
+	width: 350px;
+	overflow: hidden;
+    max-height: 330px;
+    display: inline-block;
+	word-break: break-word;
+	color: var(--def-white);
+	font-family: var(--def-font);
+	font-size: 24px;
+	font-weight: 600;
+
+}
+
+
+.hero__slider-title{
+
+	width: 240px;
+	max-height: 185px;
+	overflow: hidden;
+	color: var(--def-white);
+	font-family: var(--def-font);
+	font-size: 42px;
+	font-weight: 900;
+	margin-bottom: 5px;
+
+}
+
+
+.hero__slider-subtitle{
+
+	width: 280px;
+	max-height: 75px;
+	overflow: hidden;
+	color: var(--def-white);
+	font-family: var(--def-font);
+	margin-bottom: 35px;
+
+}
+
+
+
+.go-to-product{
+
+	width: 284px;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	background: var(--def-white);
+	color: var(--text-color);
+	font-family: var(--def-font);
+	font-size: 16px;
+	font-weight: 400;
+	padding: 18px 38px;
+	transition: .3s;
+
+}
+
+
+.go-to-product:hover{
+
+	background: var(--light-orange);
+	color: var(--text-color);
+
+}
+
+
+
+.hero__slider-img-block {
+
+    width: calc(100% - 380px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+
+}
+
+.hero__slider-img-block picture {
+
+    width: calc(100% / 2 - 46px);
+    max-height: 100%;
+    overflow: hidden;
+
+}
+
+.hero__slider-img-block picture img{
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+
+
+.hero__slider-img-block picture.plus-img {
+
+    width: 46px;
+
+}
+
+
+
+
+
+
+.hero__slider-wrapper .swiper-pagination {
+
+    height: 14px;
+    left: 50%;
+    overflow: hidden;
+    transform: translateX(-50%);
+    bottom: -30px;
+
+}
+
+
+
+.hero__slider-wrapper .swiper-pagination-bullet, .hero__slider-wrapper swiper-pagination-bullet swiper-pagination-bullet-active-prev, .hero__slider-wrapper swiper-pagination-bullet swiper-pagination-bullet-active-next{
+
+	width: 14px !important;
+	height: 14px !important;
+	border-radius: 50%;
+	background: var(--bg-light-grey);
+    opacity: 1;
+    margin-right: 10px;
+    transform: scale(1) !important;
+
+}
+
+
+
+
+.hero__slider-wrapper .swiper-pagination-bullet-active{
+
+	background: #c0c0c0;
+	opacity: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

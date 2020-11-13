@@ -1,0 +1,18 @@
+@import "partials/normolize";
+@import "partials/fonts.css";
+@import "partials/defaults";
+@import "partials/header";
+@import "partials/crumbs";
+
+//there goes pages and after that goes needed for that pages partials
+
+@import "pages/hero";
+
+//there goes pages and after that goes needed for that pages partials
+
+@import "partials/contacts";
+@import "partials/page404";
+@import "partials/footer";
+@import "partials/OverlayScrollbars";
+@import "partials/modal-window";
+@import "partials/query";

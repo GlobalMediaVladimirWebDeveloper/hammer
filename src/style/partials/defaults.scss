@@ -1,0 +1,295 @@
+*{
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+:root{
+
+	--def-white: #ffffff;
+	--bright-red: #ff0000;
+	--light-orange: #fec63d;
+	--blood-red: #da2f2f;
+	--bg-light-grey: #e2e2e2;
+	--def-dark-smoothy-blue: #507abe;
+	--def-font: Gilroy;
+	--dark-smoothy-grey: #959595;
+	--text-color: #202020;
+	--container: 1530px;
+
+}
+
+
+::selection {
+
+	color:var(--light-orange);
+	background: #464646;
+
+}
+
+.tdu{
+
+	text-decoration: underline;
+
+}
+
+address{font-style: normal !important;}
+
+
+a{text-decoration: none;}
+
+button{
+
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	border:none;
+	outline: none !important;
+	background: none;
+
+
+}
+
+a.hoverable{
+
+	position: relative;
+
+}
+
+a.hoverable::after {
+
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	background: #131313;
+	transition: width .3s;
+
+}
+
+
+a.hoverable:hover::after {
+
+	width: 100%;
+
+}
+
+.db{display: block;}
+
+.disabled{
+
+	cursor: auto;
+	pointer-events: visible;
+
+}
+
+.def-link, .def-semi-bold-link, .def-nav-link, .navbar ul li a{
+
+	color: var(--dark-smoothy-grey);
+	font-family: var(--def-font);
+	font-size: 14px;
+	font-weight: 300;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	
+}
+
+
+.def-nav-link, .navbar ul li a{
+
+	font-size: 16px;
+	color: var(--text-color);
+
+}
+
+.def-semi-bold-link{
+
+	font-size: 16px;
+	font-weight: 600;
+
+}
+
+
+.h_link, .def-link{
+
+	transition: .3s;
+
+}
+
+.h_link:hover, .def-link:hover{
+
+	color: var(--blood-red);
+
+}
+
+
+.container {
+
+	width: 1530px;
+	margin: auto;
+
+}
+
+.swiper-slide {background: none;}
+
+
+
+.def-blank-btn{
+
+	display: flex;
+	align-items: center;
+	height: 48px;
+	padding: 28px 15px;
+	color: var(--def-white);
+	font-family: var(--def-font);
+	font-size: 16px;
+	font-weight: 400;
+	background-color: var(--light-orange);
+	position: relative;
+	z-index: 9999;
+	transition: .3s;
+
+
+}
+
+
+.main {
+
+	width: 100%;
+	max-width: 1920px;
+	margin: auto;
+	overflow: hidden;
+	height: auto;
+
+}
+
+
+.hidden {
+
+	display: none;
+
+}
+
+
+.fancybox-active {
+
+	height: 100% !important;
+
+}
+
+
+.fancybox-button.fancybox-close-small{
+
+	display: none;
+
+}
+
+
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+	
+	opacity: 1 !important;
+	cursor: auto !important;
+	pointer-events: visible !important;
+	
+}
+
+
+
+
+section{
+
+	width: 100%;
+	max-width: 1920px;
+	margin:auto;
+
+}
+
+
+
+
+.def-blank-btn:hover {
+
+    background: #1a1a1a;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
