@@ -192,6 +192,45 @@ if(heroSlider){
 
 
 
+const hitSales = document.querySelector('.hit-sales__slider');
+
+
+if(hitSales){
+
+	const hitSales_ = new Swiper(hitSales, {
+		loop: false,
+		slidesPerView: 1,
+	    pagination: {
+			el: '.hit-pagination',
+	    	dynamicBullets: true,
+	    	dynamicMainBullets:5,
+	    	clickable:true
+	    },
+		navigation: {
+			prevEl: '.hit-prev-btn',
+	    	nextEl: '.hit-next-btn',
+		},
+		breakpoints: {
+			980: {
+			  slidesPerView: 2,
+			  spaceBetween: 20
+			},
+			1170: {
+				slidesPerView: 3,
+				spaceBetween: 20
+			},
+			1366: {
+				slidesPerView: 4,
+				spaceBetween: 20
+			}
+		}
+
+	});
+
+}
+
+
+
 
 
 
